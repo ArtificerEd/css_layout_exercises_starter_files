@@ -1,48 +1,49 @@
 main {
-	padding: 60px;
 	font-size: 0;
-	height: 500px;
-	width: 800px;
+}
+
+.box-parent {
+	margin-top: 100px;
 	margin-left: auto;
 	margin-right: auto;
+	width: 800px;
+}
+
+.box {
+	border: 1px solid black;
+	display: inline-block;
+}
+
+.box-upper {
+	height: 200px;
+	width: 50%;
+}
+
+.box-lower {
+	height: 300px;
+	width: 33.33%;
+}
+
+.black {
+	background-color: black;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.green {
+	background-color: green;
+}
+
+.grey {
+	background-color: grey;
+}
+
+.orange {
+	background-color: orange;
 }
 
 .inner {
-	display: inline-block;
-	font-size: 0;
-}
-
-.inner-one {
-	background-color: green;
-	border: 1px solid black;
-	height: 200px;
-	width: 50%;
-}
-
-.inner-two {
-	background-color: blue;
-	border: 1px solid black;
-	height: 200px;
-	width: 50%;
-}
-
-.inner-three {
-	background-color: gray;
-	border: 1px solid black;
-	height: 300px;
-	width: 33.33%;
-}
-
-.inner-four {
-	background-color: black;
-	border: 1px solid black;
-	height: 300px;
-	width: 33.33%;
-}
-
-.inner-five {
-	background-color: orange;
-	border: 1px solid black;
-	height: 300px;
-	width: 33.33%;
+	text-align: center;
 }
